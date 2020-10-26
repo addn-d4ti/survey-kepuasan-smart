@@ -97,8 +97,8 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-reply"></i>
+        <a class="nav-link" data-toggle="modal" href="#logoutModal">
+          <i class="fas fa-sign-out-alt"></i>
           <span>Logout</span></a>
       </li>
 
