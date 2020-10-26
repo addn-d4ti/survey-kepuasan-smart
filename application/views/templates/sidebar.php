@@ -19,7 +19,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="<?= base_url() ?>">
           <i class="fas fa-fw fa-desktop"></i>
           <span>Dashboard</span></a>
       </li>
@@ -90,7 +90,7 @@
 
       <!-- Karyawan Menu -->
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('listkaryawan') ?>">
+        <a class="nav-link" href="<?= base_url('Karyawan') ?>">
           <i class="fas fa-fw fa-user"></i>
           <span>Karyawan</span></a>
       </li>

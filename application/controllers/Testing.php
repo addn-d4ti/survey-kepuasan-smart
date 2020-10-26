@@ -12,13 +12,4 @@ class Testing extends CI_Controller {
         $this->load->view('admin/dashboard'); // LOAD CONTENT
         $this->load->view('templates/footer'); // load footer
     }
-
-    public function listkaryawan()
-    {
-        $this->load->view('templates/header'); // load header
-        $this->load->view('templates/sidebar'); // load sidebar
-        $this->load->view('templates/topbar'); // load topbar
-        $this->load->view('admin/listkaryawan'); // LOAD CONTENT
-        $this->load->view('templates/footer'); // load footer
-    }
 }
