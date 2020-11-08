@@ -7,7 +7,7 @@
             <tr><td>Nama</td><td><?php echo $nama; ?></td></tr>
             <tr><td>Npk</td><td><?php echo $npk; ?></td></tr>
             <tr><td>Bidang</td><td><?php echo $bidang; ?></td></tr>
-            <tr><td>Foto Karyawan</td><td><?php echo $foto_karyawan; ?></td></tr>
+            <tr><td>Foto Karyawan</td><td><div class="col-md-4"><img src="<?php echo base_url().'./upload/foto/'.$foto_karyawan ?>" alt=""></div></tr>
             <tr><td></td><td><?php echo anchor(site_url('karyawan'),'Kembali','class="btn btn-primary"');?></td></tr>
         </table>
     </div>

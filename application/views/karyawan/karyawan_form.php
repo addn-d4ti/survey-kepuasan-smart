@@ -3,25 +3,25 @@
         <h1 class="h3 mb-0 text gray-800">Karyawan</h1>
     </div>
     <div class="row">
-    <form action="<?php echo $action; ?>" method="post">
+    <form action="<?php echo base_url(). 'karyawan/create_action'?>" method="post" enctype="multipart/form-data">
 	    <div class="form-group">
-            <label for="varchar">Nama <?php echo form_error('nama') ?></label>
-            <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama" value="<?php echo $nama; ?>" />
+            <label for="varchar">Nama </label>
+            <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama" value="" />
         </div>
 	    <div class="form-group">
-            <label for="varchar">Npk <?php echo form_error('npk') ?></label>
-            <input type="text" class="form-control" name="npk" id="npk" placeholder="Npk" value="<?php echo $npk; ?>" />
+            <label for="varchar">Npk </label>
+            <input type="text" class="form-control" name="npk" id="npk" placeholder="Npk" value="" />
         </div>
 	    <div class="form-group">
-            <label for="varchar">Bidang <?php echo form_error('bidang') ?></label>
-            <input type="text" class="form-control" name="bidang" id="bidang" placeholder="Bidang" value="<?php echo $bidang; ?>" />
+            <label for="varchar">Bidang</label>
+            <input type="text" class="form-control" name="bidang" id="bidang" placeholder="Bidang" value="" />
         </div>
 	    <div class="form-group">
-            <label for="varchar">Foto Karyawan <?php echo form_error('foto_karyawan') ?></label>
-            <input type="text" class="form-control" name="foto_karyawan" id="foto_karyawan" placeholder="Foto Karyawan" value="<?php echo $foto_karyawan; ?>" />
+            <label for="varchar">Foto Karyawan</label>
+            <input type="file" class="form-control" name="foto_karyawan" id="foto_karyawan" placeholder="Foto Karyawan" value="" />
         </div>
-	    <input type="hidden" name="id_karyawan" value="<?php echo $id_karyawan; ?>" /> 
-	    <button type="submit" class="btn btn-primary"><?php echo $button ?></button> 
+	    <input type="hidden" name="id_karyawan" value="" /> 
+	    <button type="submit" class="btn btn-primary"></button> 
 	    <a href="<?php echo site_url('karyawan') ?>" class="btn btn-default">Cancel</a>
 	</form>
     </div>
