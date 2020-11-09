@@ -31,21 +31,12 @@
       <div class="sidebar-heading">
         Interface
       </div>
-
+      
       <!-- Menu Makanan -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menumakan" aria-expanded="true" aria-controls="menumakan">
+        <a class="nav-link" href="<?= base_url('Menu') ?>">
           <i class="fas fa-fw fa-list"></i>
-          <span>Menu</span>
-        </a>
-        <div id="menumakan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="utilities-color.html">Shift 1</a>
-            <a class="collapse-item" href="utilities-border.html">Shift 2</a>
-            <a class="collapse-item" href="utilities-animation.html">Shift 3</a>
-          </div>
-        </div>
+          <span>Menu</span></a>
       </li>
 
       <!-- Hasil Menu -->
@@ -97,8 +88,8 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" data-toggle="modal" href="#logoutModal">
-          <i class="fas fa-sign-out-alt"></i>
+        <a class="nav-link" href="tables.html">
+          <i class="fas fa-fw fa-reply"></i>
           <span>Logout</span></a>
       </li>
 
