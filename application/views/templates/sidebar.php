@@ -42,7 +42,7 @@
         <div id="hasilmenu" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Menu Kuisioner :</h6>
-            <a class="collapse-item" href="<?= base_url('admin')?>">Pengaturan</a>
+            <a class="collapse-item" href="<?= base_url('Admin')?>">Pengaturan</a>
             <a class="collapse-item" href="<?= base_url('Hasil/P1')?>">Hasil</a>
           </div>
         </div>

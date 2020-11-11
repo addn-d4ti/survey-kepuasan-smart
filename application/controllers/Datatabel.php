@@ -17,15 +17,10 @@ class Datatabel extends CI_Controller {
 
     public function _example_output($output = null)
 	{
-		if($this->session->userdata('nama_user') !='')
         {
             
             $this->load->view('admin_data.php',(array)$output);
             
-        }
-        else
-        {
-            redirect(base_url() . 'Admin/login');
         }
     }
     
