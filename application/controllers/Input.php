@@ -15,6 +15,9 @@ class Input extends CI_Controller {
         $this->form_validation->set_rules("responden", "responden", 'required');
         $this->form_validation->set_rules("p1", "p1", 'required');
         $this->form_validation->set_rules("p2", "p2", 'required');
+        //$this->form_validation->set_rules("p3", "p3", 'required');
+        //$this->form_validation->set_rules("p4", "p4", 'required');
+        //$this->form_validation->set_rules("p5", "p5", 'required');
 
         if($this->form_validation->run())
         {
