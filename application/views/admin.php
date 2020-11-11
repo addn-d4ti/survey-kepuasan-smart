@@ -38,6 +38,8 @@
             </a>
             <a href="<?php echo base_url() ;?>Datatabel/dataresponden" class="list-group-item"> Data Responden
             </a>
+            <a href="<?php echo base_url() ;?>" class="list-group-item"> Kembali
+            </a>
 			<!-- <a href="<?php echo base_url() ;?>Hasil/P1" class="list-group-item">Lihat Hasil -->
 			<!-- </a> -->
             <!-- <a href="<?php echo base_url() ;?>Admin/logout" class="list-group-item"> Logout -->
