@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Theme Preview - Usebootstrap.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="theme/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="theme/usebootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://usebootstrap.com/" class="navbar-brand">UseBootstrap</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          
+		  <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="#">Example 1</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Example 2</a></li>
+                <li><a href="#">Example 3</a></li>
+                <li><a href="#">Example 4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Themes</a>
+            </li>
+		  </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://usebootstrap.com/" target="_blank">Use Bootstrap</a></li>
+            <li><a href="http://usebootstrap.com/" target="_blank">Bootstrap Themes</a></li>
+		  </ul>
+		  
+        </div>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="page-header">
+            <h1 id="navbar">Pertanyaan</h1>
+      </div>
+      <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel info</h3>
+          </div>
+          <div class="panel-body">
+              <ul class="nav nav-pills">
+                 
+                  <li class="dropdown open">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      Pertanyaan <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</a></li>
+                      <li><a href="#">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</a></li>
+                      <li><a href="#">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</a></li>
+                      <li><a href="#">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</a></li>
+                      <li><a href="#">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</a></li>
+                    </ul>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      <hr>
+
+      <div class="page-header">
+          <h1 id="navbar">Grafik</h1>
+    </div>
+   <p> Dari ......... Responden Untuk pertanyaan Pertama Menjawab Sangat Baik = ....., Baik = ......, Cukup =......, Dan Buruk = ........ Orang</p>
+      
+   <canvas id="myChart" width="400" height="100"></canvas>
+    </div>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: ['Red', 'Blue', 'Yellow', 'Green'],
+              datasets: [{
+                  label: '# of Votes',
+                  data: [12, 19, 3, 5],
+                  backgroundColor: [
+                      'rgba(255, 99, 132, 0.2)',
+                      'rgba(54, 162, 235, 0.2)',
+                      'rgba(255, 206, 86, 0.2)',
+                      'rgba(75, 192, 192, 0.2)',
+                      'rgba(153, 102, 255, 0.2)',
+                      'rgba(255, 159, 64, 0.2)'
+                  ],
+                  borderColor: [
+                      'rgba(255, 99, 132, 1)',
+                      'rgba(54, 162, 235, 1)',
+                      'rgba(255, 206, 86, 1)',
+                      'rgba(75, 192, 192, 1)',
+                      'rgba(153, 102, 255, 1)',
+                      'rgba(255, 159, 64, 1)'
+                  ],
+                  borderWidth: 1
+              }]
+          },
+          options: {
+              scales: {
+                  yAxes: [{
+                      ticks: {
+                          beginAtZero: true
+                      }
+                  }]
+              }
+          }
+      });
+      </script>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+	<script src="bootstrap/usebootstrap.js"></script>
+  </body>
+</html>

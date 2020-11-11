@@ -17,12 +17,6 @@
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="<?= base_url() ?>">
-          <i class="fas fa-fw fa-desktop"></i>
-          <span>Dashboard</span></a>
-      </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider">
@@ -43,14 +37,13 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#hasilmenu" aria-expanded="true" aria-controls="hasilmenu">
           <i class="fas fa-fw fa-wrench"></i>
-          <span>Hasil</span>
+          <span>Kuisioner</span>
         </a>
         <div id="hasilmenu" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Shift 1</a>
-            <a class="collapse-item" href="utilities-border.html">Shift 2</a>
-            <a class="collapse-item" href="utilities-animation.html">Shift 3</a>
+            <h6 class="collapse-header">Menu Kuisioner :</h6>
+            <a class="collapse-item" href="<?= base_url('admin')?>">Pengaturan</a>
+            <a class="collapse-item" href="<?= base_url('Hasil/P1')?>">Hasil</a>
           </div>
         </div>
       </li>
@@ -88,7 +81,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="dashboard">
           <i class="fas fa-fw fa-reply"></i>
           <span>Logout</span></a>
       </li>

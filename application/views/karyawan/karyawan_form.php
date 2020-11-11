@@ -21,7 +21,7 @@
             <input type="file" class="form-control" name="foto_karyawan" id="foto_karyawan" placeholder="Foto Karyawan" value="" />
         </div>
 	    <input type="hidden" name="id_karyawan" value="" /> 
-	    <button type="submit" class="btn btn-primary"></button> 
+	    <button type="submit" class="btn btn-primary"> Simpan </button> 
 	    <a href="<?php echo site_url('karyawan') ?>" class="btn btn-default">Cancel</a>
 	</form>
     </div>
