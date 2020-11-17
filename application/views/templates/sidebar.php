@@ -81,7 +81,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="dashboard">
+        <a class="nav-link" href="<?php echo base_url() ;?>Testing/logout">
           <i class="fas fa-fw fa-reply"></i>
           <span>Logout</span></a>
       </li>

@@ -110,7 +110,7 @@ form button:hover {
 
 </style></head><body>
 
-<form action="<?php echo base_url(); ?>Admin/login_validation" method="POST">
+<form action="<?php echo base_url(); ?>Testing/login_validation" method="POST">
 <h2><?php  
     echo '<label class="text-danger">'.$this->session->flashdata
                           ("error").'</label>';  

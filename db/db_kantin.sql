@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 11, 2020 at 01:03 PM
+-- Generation Time: Nov 17, 2020 at 06:32 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -151,11 +151,14 @@ CREATE TABLE `t_kuisioner` (
 --
 
 INSERT INTO `t_kuisioner` (`id`, `responden`, `p1`, `p2`, `p3`, `p4`, `p5`) VALUES
-(45, 'Nugraha Eka P', 'Sangat Baik', 'Cukup', 'Baik', 'Baik', 'Cukup'),
-(46, 'Aji', 'Baik', 'Cukup', 'Cukup', 'Buruk', 'Cukup'),
-(47, 'Dena', 'Baik', 'Cukup', 'Baik', 'Cukup', 'Baik'),
-(48, 'Dzikri', 'Cukup', 'Sangat Baik', 'Baik', 'Buruk', 'Sangat Baik'),
-(49, 'Bambang', 'Sangat Baik', 'Baik', 'Baik', 'Baik', 'Baik');
+(57, 'Nugraha Eka P', 'Sangat Baik', 'Baik', 'Sangat Baik', 'Sangat Baik', 'Sangat Baik'),
+(58, 'aji ', 'Baik', 'Buruk', 'Buruk', 'Buruk', 'Buruk'),
+(59, 'dzikri', 'Sangat Baik', 'Buruk', 'Buruk', 'Buruk', 'Buruk'),
+(60, 'Dena', 'Cukup', 'Baik', 'Cukup', 'Cukup', 'Cukup'),
+(61, 'Reinaldo', 'Sangat Baik', 'Cukup', 'Baik', 'Buruk', 'Cukup'),
+(62, 'Bambang', 'Sangat Baik', 'Baik', 'Baik', 'Baik', 'Baik'),
+(63, 'reno', 'Sangat Baik', 'Baik', 'Baik', 'Sangat Baik', 'Buruk'),
+(64, 'Nugi', 'Baik', 'Sangat Baik', 'Baik', 'Sangat Baik', 'Baik');
 
 -- --------------------------------------------------------
 
@@ -304,7 +307,7 @@ ALTER TABLE `poling_menu`
 -- AUTO_INCREMENT for table `t_kuisioner`
 --
 ALTER TABLE `t_kuisioner`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT for table `t_pertanyaan`

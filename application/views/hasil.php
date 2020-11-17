@@ -52,7 +52,7 @@
                   <a href="<?php echo base_url() ;?>Hasil/P5" class="list-group-item">
                     Pertanyaan 5
                   </a>
-                  <a href="<?php echo base_url() ;?>Datatabel" class="list-group-item">
+                  <a href="<?php echo base_url() ;?>" class="list-group-item">
                     Kembali
                   </a>
               </div>

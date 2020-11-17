@@ -26,6 +26,9 @@ class Input extends CI_Controller {
                 "responden"       =>$this->input->post("responden"),
                 "p1"              =>$this->input->post("p1"),
                 "p2"              =>$this->input->post("p2"),
+                "p3"              =>$this->input->post("p3"),
+                "p4"              =>$this->input->post("p4"),
+                "p5"              =>$this->input->post("p5"),
                
             );
             $this->input_model->insert_data($data);
